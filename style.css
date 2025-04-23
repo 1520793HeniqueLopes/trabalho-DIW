@@ -8,3 +8,12 @@ h1{
 .cor1{
     background-color: orangered;
 }
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: orangered;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

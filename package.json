@@ -1,0 +1,73 @@
+{
+    "site": {
+      "titulo": "CINEPLAY",
+      "navbar": {
+        "marca": "CINEPLAY",
+        "menu": [
+          { "nome": "Home", "link": "#" },
+          { "nome": "FILMES", "link": "#" },
+          {
+            "nome": "OPÇÕES",
+            "dropdown": [
+              { "nome": "FILMES", "link": "#filmes" },
+              { "nome": "SÉRIES", "link": "#series" },
+              { "nome": "FILMES QUE VOCÊ PESQUISOU", "link": "#voce" }
+            ]
+          },
+          { "nome": "Link", "link": "#", "disabled": true }
+        ],
+        "search": true
+      },
+      "carousel": [
+        {
+          "imagem": "img/Capitao-America-Admiravel-Mundo-Novo.webp",
+          "alt": "imagem carousel",
+          "link": "segundaria.html"
+        },
+        {
+          "imagem": "img/mulan.jpg",
+          "alt": "imagem carousel",
+          "link": "segundaria.html"
+        },
+        {
+          "imagem": "img/2025.jpg",
+          "alt": "imagem carousel",
+          "link": "segundaria.html"
+        }
+      ],
+      "sessões": [
+        {
+          "id": "filmes",
+          "titulo": "FILMES",
+          "itens": [
+            { "imagem": "img/BirdBox.jpeg", "alt": "imagem do filme", "link": "segundaria.html" },
+            { "imagem": "img/223739.jpg", "alt": "imagem do filme", "link": "segundaria.html" },
+            { "imagem": "img/gigantesdeaco.jpg", "alt": "imagem do filme", "link": "segundaria.html" },
+            { "imagem": "img/it.jpg", "alt": "imagem do filme", "link": "segundaria.html" }
+          ]
+        },
+        {
+          "id": "series",
+          "titulo": "SÉRIES",
+          "itens": [
+            { "imagem": "img/ney.jpg", "alt": "imagem da série", "link": "segundaria.html" },
+            { "imagem": "img/senna.jpeg", "alt": "imagem da série", "link": "segundaria.html" },
+            { "imagem": "img/lacasa.jpeg", "alt": "imagem da série", "link": "segundaria.html" },
+            { "imagem": "img/outer.jpeg", "alt": "imagem da série", "link": "segundaria.html" }
+          ]
+        },
+        {
+          "id": "voce",
+          "titulo": "FILMES QUE VOCÊ PESQUISOU",
+          "itens": [
+            { "imagem": "img/niki.jpg", "alt": "imagem do filme", "link": "segundaria.html" },
+            { "imagem": "img/pele.jpg", "alt": "imagem do filme", "link": "segundaria.html" },
+            { "imagem": "img/AOH.jpg", "alt": "imagem do filme", "link": "segundaria.html" },
+            { "imagem": "img/download.jpg", "alt": "imagem do filme", "link": "segundaria.html" }
+          ]
+        }
+      ],
+      "footer": "© 2025 CINEPLAY"
+    }
+  }
+  
